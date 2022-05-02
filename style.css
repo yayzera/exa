@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+html,body {
+     height: 100%;
+     background-color: #1B2029;
+     min-width: 1280;
+}
+
+header {   
+    display: flex;
+    justify-content: center;    
+}
+.img {
+    width: 1000px;
+    max-width: 100%;
+    
+}
+
+form {
+    background-color: #2022254f;
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 10px;
+    color: white;
+    box-shadow: 2px -2px 19px -2px rgb(0 0 0 / 44%);
+   
+     
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+form fieldset {
+    border: 1px solid rgba(197, 21, 21, 0);
+}
+
+form fieldset legend {
+    padding: 5px;
+    font-size: 25px
+}
+
+form .campos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: initial;
+    border-radius: 10px;
+    background: #161923;
+    border: 1px solid #161923;
+}
+
+form .campos:hover {
+    border: 1px solid white;
+}
+
+form div {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+form div.genero{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px 15px 0px;
+}
+form h1 {
+    font-size: 16px;
+    text-align: initial;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 15px 0px 15px 0px; 
+}
+
+form select {
+    width: 80%;
+    margin-top: 10px;
+    padding: 10px 13px;
+    display: inline-block;
+    background-color: #161923;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid #161923;
+}
+
+form select:hover {
+    border: 1px solid white;
+}
+
+input[type="number"]{ 
+    background-color: #161923;
+    color: white;
+    outline: none;
+    border: 1px solid #161923;
+    padding: 15px;
+    color: white;
+
+}    
+
+form option {
+    display: flex;
+    flex-direction: row;
+}
+label {
+    font-size: bold;
+    display: flex;
+}
+
+textarea {
+    background-color: #161923;
+    color: white;
+    border: 1px solid #161923;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    resize: none;
+    width: 80%;
+    padding: 10px 13px;
+    border: 1px solid #161923;
+    box-shadow: 2px -2px 19px -2px rgb(0 0 0 / 44%);
+}
+form textarea:hover {
+    border: 1px solid white;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    color: white;
+    background-color: #161923;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 1px solid #161923;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+
+input[type="submit"]:hover{
+    background-color: white;
+    color: #161923;
+}

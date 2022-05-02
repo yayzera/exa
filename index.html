@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+       <img class="img" src="Recrutamento-staff.png" alt="">
+   </header>
+    <form action="">
+        <fieldset>
+            <legend>Seja Staff do EXA(exercito dos animes)</legend>
+            <label for="nome">Nome:</label>
+            <input class="campos" type="text" name="nome" placeholder="">
+            <label for="nome">Discord:</label>
+            <input class="campos" type="text" name="discord" placeholder="">
+            <h1>Qual seu genero?</h1>
+            <div class="genero">
+                <label for="genero">Feminino</label>
+                <input class="radio" type="radio" name="genero">
+                <label for="genero">Masculino</label>
+                <input class="radio" type="radio" name="genero">
+                <label for="genero">Outro</label>
+                <input class="radio" type="radio" name="genero">
+            </div>
+            <label class="radio" for="area">Para qual aréa voce quer entrar?</label>
+            <div class="area">
+                <select class="#" name="area" id="">
+                    <option class="select" value="mov call">Mov Call</option>
+                    <option class="select" value="mov call">Registro</option>
+                    <option class="select" value="mov call">Divulgação</option>
+                    <option class="select" value="mov call">Recrutamento</option>
+                    <option class="select" value="mov call">Design</option>
+                    <option class="select" value="mov call">Eventos</option>
+                </select>
+            </div>
+            <label for="idade">Qual sua idade?</label>
+            <div>
+                <input type="number" name="idade" min="13" max="40">
+            </div> 
+            <label for="texto">Digite em poucas palavras porque quer entrar na staff</label>
+            <textarea name="texto" id="" cols="" rows="" placeholder="Descreva aqui..."></textarea> 
+            <div class="submit"><input type="submit" name="enviar"></div>
+        </fieldset>
+    </form>
+</body>
+</html>
